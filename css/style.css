@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Jost:ital,wght@0,500;1,500;1,600&display=swap');
+
+:root{
+    --color1:#def7ff;
+    --color2: rgb(20, 163, 235);
+    --color3: #f8f9fa;
+    --color4:#787a80;
+    --color5:#1e212c;
+    --color6:#424551;
+    --color-blanco:#FFFFFF;
+    --color-negro: #000000;
+    --gris-claro: #CCCCCC;
+    --gris-oscuro: #333333;
+}
+
+.container{
+    max-width: 1300px;
+}
+
+body{
+    font-family: "Lato" sans-serif;
+    font-size: 18px;
+    
+}
+
+figure{
+    margin-bottom: 0;
+}
+
+h1{
+    font-size: 67px ;
+    font-family: Jost;
+    color: var(--color-negro);
+}
+
+h2{
+    font-size: 48px;
+   text-align: center;
+   font-weight: 600;
+   padding-bottom: 3rem;
+}
+
+h3{
+    font-size: 24px;
+    font-family: Arimo;
+    color: var(--color-negro);
+}
+
+h4{
+    font-size: 22px;
+    font-family: Arimo;
+    color: var(--color-negro);
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 5%;
+    padding-bottom: 10%;
+    color: #fff;
+    text-align: left;
+}
+
+.nav-item{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.nav-item i{
+    font-size: 25px;
+    color: black;
+    text-align: right;
+}
+
+.tell{
+    padding: 110px 0 110px ;
+    background-color: var(--color3);
+}
+
+.formu{
+    padding: 50px 65px;
+    background-color: var(--color-blanco);
+}
+
+.benefits{
+    padding-bottom: 12rem;
+    background-color: var(--color3);
+}
+
+.btn-success {
+    --bs-btn-hover-bg: rgb(20, 163, 235);
+    border: none;
+    --bs-btn-bg: #def7ff;
+    --bs-btn-color:#000000; 
+    --bs-btn-active-bg:rgb(20, 163, 235); ;
+}
+
+.start button {
+    background-color:rgb(20, 163, 235) ;
+    padding: 20px 50px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.icono button{
+    background-color: #def7ff;
+    color: var(--color2);
+    border: none;
+    border-radius: 50px;
+    font-size: 25px;
+    width: 80px;
+    height: 80px;
+}
+
+.icono button:hover {
+    background-color: var(--color2);
+    color: var(--color-blanco);
+    border: none;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+.icono i {
+    font-size: 30px;
+}
+
+.imagen-blog {
+    background-color: var(--color-blanco);
+    border-radius: 5px;
+    position: relative;
+}
+
+.imagen-blog-initial {
+    padding: 40px 40px;
+    text-align: left;
+}
+
+.familia{
+    background-image: url( ../images/fondo-familia.png) ;
+    background-size: 100%;
+    padding-top: 2rem;
+}
+
+span{
+    color: var(--color2);
+}
+
+.familia img{
+    margin-top: -150px;
+}
+
+.align-items-center {
+    align-items: center!important;
+    padding-top: 3rem;
+}
+
+.column{
+    background-color: var(--color-blanco);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.numeros{
+    display: flex;
+}
+
+.column i{
+    font-size: 30px;
+    padding-left:23px;
+    color: darkgrey;
+    margin-right: 25px;
+}
+
+.texto{
+    padding-left: 15px;
+    padding-top: 9px;
+    text-align: left;
+}
+
+.justify-content-start {
+    justify-content: flex-start!important;
+    padding-top: 5rem;
+}
+
+.bi-people-fill::before {
+    content: "\f4cf";
+    padding-top: 25px;
+}
+
+.provide{
+    padding-top: 5rem;
+}
+
+.more {
+    padding-left: 30%;
+    padding-top: 30%;
+}
+
+.more a{
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #def7ff;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px 40px;
+    border-radius: 7px;
+    border:rgb(20, 163, 235  ) 1px solid;
+}
+
+.more a:hover{
+    background-color: rgb(20, 163, 235  );
+    color: white;
+}
+
+.flecha i {
+    font-size: 35px;
+}
+
+.formulario{
+    background-image: url(../images/fondo-formu.png);
+    background-size: 115%;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+
+.formulario h2{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 0;
+}
+
+.submit{
+    text-align: left;
+}
+
+.submit a{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgb(20, 163, 235  );
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px 40px;
+    border-radius: 7px; 
+    color: white;
+}
+
+.submit a:hover{
+    background-color:  #7486E5;
+}
+
+footer{
+    background-color: black;
+    padding: 5rem 20px 2rem 20px;
+}
+
+footer h2{
+    color: white;
+    font-size: 90px;
+    border: #292929 1px solid;
+    border-radius: 20px;
+}
+
+footer i{
+    color: rgb(20, 163, 235  );
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+footer span{
+    color: white;
+}
+
+.pie-pagina{
+    padding-top: 4rem;
+    color: white;
+}
+
+footer h5{
+    font-size: 17px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.pie-pagina ul{
+    list-style: none;
+    font-size: 15px;
+    text-align: left;
+    text-decoration: none;
+    padding-left: 0;
+    color: #ACACAC;
+}
+
+.pie-pagina ul  a{
+    color: #ACACAC;
+    text-decoration: none;
+    list-style: none;
+}
+
+.pie-pagina form{
+    text-align: left;
+}
+
+.pie-pagina form a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    list-style: none;
+}
+
+.pie-pagina form i{
+    color: white;
+}
+
+.copry p{
+    color:#ACACAC ;
+    font-size: 15px;
+}
+
+.copry a i{
+    color: white;
+}
+
+.redes{
+    text-align: right;
+}
